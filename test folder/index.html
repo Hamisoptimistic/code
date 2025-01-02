@@ -22,8 +22,42 @@
 	</ul>
 
 	<!--Ordered List-->
+	<!-- You can Add Reversed Start and Type Attributes in the Ordered List --> 
+	<ol type = "1" , start = "5",>
+		<li>Lorem.</li>
+		<li>Aspernatur?</li>
+		<li value="8">Tempora.</li>
+		<li>Tempora.</li>
+		<li>Tempora.</li>
+	</ol>
 
-	ol>li*3>Lorem1
+	<!-- Nesting of Lists 
+	->> Only the <li> can be the direct child of <ul> and <ol>-->
+	<ol>
+		<li>Lorem.</li>
+		<li>Recusandae.</li>
+			<ul>
+				<li>Lorem.</li>
+				<li>Molestias!</li>
+				<li>Consequatur!</li>
+			</ul>
+		<li>Tempore.</li>
+		<li>Architecto?</li>
+	</ol>
+
+ 	<!-- An Anchor Tag  <a> is used to create a hyperlink to another webpage.
+   	-->
+	<a href = "https://developer.mozilla.org/en-US/docs/Learn_web_development">MDN.com</a>
+<hr>
+	<!-- To Open in new tab , add Target attribute-->
+	<a href = "https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener noreferrer">MDN.com</a>
+
+ 	<!-- Image Tag 
+	Its a Self Closing Tag -->
+	<img src="https://images.unsplash.com/photo-1549871306-587d56d36b2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random Image" width="200" height="200">
+
+
+
 
 </body>
 </html>
