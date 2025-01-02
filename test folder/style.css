@@ -1,4 +1,40 @@
+/* * {
+	color: purple;
+} */
+
 body {
-	background-color:  darkslategray;
+	/* background-color:  darkslategray; */
 	font-family: Arial, sans-serif;
 }
+
+/* Combining Selectors */
+.c1, 
+.c2 {
+	/* color : crimson; */
+	font-family: JetBrains Mono, monospace;
+	font-size: 50px;
+}
+
+/* styling it individually */
+.c1 {
+	background-color: lightblue;
+}
+.c2 {
+	background-color: lightgreen;
+}
+/* Chaining Selectors */
+.c1.first {
+	color: black;
+	text-align: center;
+}
+
+.c2#second {
+	border-style: solid;
+	text-align: center;
+	border-width: 5px;
+	border-color: black;
+	color :crimson
+} 
+
+/* Descendant Selector */
+
