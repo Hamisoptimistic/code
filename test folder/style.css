@@ -53,3 +53,14 @@ ul li {
 	color: red;
 }
 
+/* Adjacent Combinator */
+
+.container+p {
+	color: hotpink;
+}
+
+/* Sibling Combinator */
+
+.container~p {
+	color: darkorange;
+}
