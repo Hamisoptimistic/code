@@ -47,6 +47,7 @@ ul li {
 	font-family: cursive;
 }
 
+/* child combinators */
 
 .container > p{
 	color: red;
