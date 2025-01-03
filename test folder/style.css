@@ -38,3 +38,17 @@ body {
 
 /* Descendant Selector */
 
+ol li {
+	color: blue;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li {
+	color: green;
+	font-family: cursive;
+}
+
+
+.container > p{
+	color: red;
+}
+
