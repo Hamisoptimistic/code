@@ -1,6 +1,6 @@
-/* * {
-	color: purple;
-} */
+* {
+	background-color: #808080
+}
 
 body {
 	/* background-color:  darkslategray; */
@@ -34,6 +34,7 @@ body {
 	border-width: 5px;
 	border-color: black;
 	color :crimson
+	text-transform:
 } 
 
 /* Descendant Selector */
@@ -46,6 +47,12 @@ ul li {
 	color: green;
 	font-family: cursive;
 }
+
+
+
+/* .container p{
+	color: blue;
+} */
 
 /* child combinators */
 
@@ -61,6 +68,6 @@ ul li {
 
 /* Sibling Combinator */
 
-.container~p {
+/* .container~p {
 	color: darkorange;
-}
+} */
