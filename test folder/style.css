@@ -34,7 +34,7 @@ body {
 	border-width: 5px;
 	border-color: black;
 	color :crimson
-	text-transform:
+	/* text-transform: */
 } 
 
 /* Descendant Selector */
@@ -56,18 +56,19 @@ ul li {
 
 /* child combinators */
 
-.container > p{
-	color: red;
-}
-
-/* Adjacent Combinator */
-
-.container+p {
-	color: hotpink;
-}
+/* .container > p,div{
+	color: maroon;
+	background-color: palevioletred;
+} */
 
 /* Sibling Combinator */
 
-/* .container~p {
-	color: darkorange;
+/* .container+p {
+	background-color: hotpink;
 } */
+
+/* Subsequent Sibling Combinator */
+
+.container~p {
+	color: darkorange;
+}
