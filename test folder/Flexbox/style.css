@@ -79,5 +79,12 @@
   width: 300px;
   height: 300px;
   /* margin: 5px; */
-  order: ;
+}
+
+.first-item {
+  order: 1;
+}
+
+.last-item {
+  order: -1;
 }
