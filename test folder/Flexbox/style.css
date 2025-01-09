@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: fantasy;
+  font-family: Lexend;
 }
 
 .menu-container {
@@ -61,6 +61,7 @@
 .photo-grid-container {
   display: flex;
   justify-content: center;
+  background-color: beige;
 }
 
 .photo-grid {
@@ -69,10 +70,14 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  /* flex-direction: column; */
+  flex-direction: row;
 }
 
 .photo-grid-item {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 300px;
   height: 300px;
+  /* margin: 5px; */
+  order: ;
 }
