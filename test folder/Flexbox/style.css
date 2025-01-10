@@ -21,6 +21,7 @@
   width: 900px;
   display: flex;
   justify-content: space-between;
+  /* margin-left: auto; */
 }
 
 .links {
@@ -49,7 +50,7 @@
 }
 
 .header {
-  /* align-items: stretch; */
+  /* align-items: flex-end; */
 }
 
 /* .social,
@@ -57,6 +58,10 @@
 .subscribe {
   border: 1px solid #5995da;
 } */
+
+.subscribe {
+  align-self: self-end;
+}
 
 .photo-grid-container {
   display: flex;
