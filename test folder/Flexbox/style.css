@@ -7,7 +7,8 @@
 
 .menu-container {
   color: #fff;
-  background-color: #5995da; /* Blue */
+  background-color: #5995da;
+  /* Blue */
   padding: 20px 0;
   /* adding new Code */
   /* height: 100px; */
@@ -76,7 +77,8 @@
   width: 900px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap; /* Ensure wrapping */
+  flex-wrap: wrap;
+  /* Ensure wrapping */
   justify-content: center;
   /* flex-direction: column; */
   flex-direction: row;
@@ -96,6 +98,7 @@
 .last-item {
   order: -1;
 }
+
 /* IGNORE */
 
 .par {
@@ -109,7 +112,7 @@
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .child {
@@ -119,12 +122,14 @@
   justify-content: center;
   /* height: 100%; */
   /* height: 200px; */
-
   /* flex: 1; */
-  /* width: 300px; or any specific width */
+  flex-grow: 1;
+  /* width: 100%; */
+  /* width: 300px; */
 }
 
 .ch-1 {
   /* flex-basis: 200px; */
-  flex-grow: 1;
+
+  background-color: salmon;
 }
