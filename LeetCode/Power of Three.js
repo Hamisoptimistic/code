@@ -7,8 +7,8 @@ const isPowerOfThree = function(n) {
       n = n/3;
       
   }
-  console.log (n)
+  
   return n===1;
 };
 
-console.log(isPowerOfThree(10)) // true
+console.log(isPowerOfThree(27)) // true
