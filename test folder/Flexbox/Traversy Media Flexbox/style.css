@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lexend;
+}
+.nav {
+  background-color: aqua;
+  height: 80px;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  /* background-color: bisque; */
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  
+}
+.container .Logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+.right {
+  display: flex;
+  gap:20px;
+  font-size: 15px;
+}
