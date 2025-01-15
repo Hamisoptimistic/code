@@ -5,19 +5,23 @@
   font-family: Lexend;
 }
 .nav {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 80px;
-  width: 100%;
+}
+.container {
+  width:1200px;
+  margin:0 auto;
+  padding:10px;
 }
 
-.container {
-  margin: 0 auto;
+.nav .container {
   /* background-color: bisque; */
-  height: 100%;
-  width: 80%;
+  height: 100%;  
   display: flex;
   justify-content: space-between;
   align-items: center ;
+  /* margin-left : 20px; */
+  
   
 }
 .container .Logo {
@@ -28,4 +32,17 @@
   display: flex;
   gap:20px;
   font-size: 15px;
+}
+.header .container {
+  /* margin-left:10px; */
+  /* background-color: pink; */
+  display: flex;
+  height:300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
