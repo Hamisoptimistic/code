@@ -66,3 +66,11 @@ let num3 = 10;
 // ++num3;
 // console.log(++num3);
 console.log(num3++);
+
+let what = 0;
+console.log(what);
+what += 2;
+console.log(what);
+
+let [dd, ff] = [1654564565456321, 2];
+console.log(dd);
