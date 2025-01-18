@@ -72,5 +72,5 @@ console.log(what);
 what += 2;
 console.log(what);
 
-let [dd, ff] = [1654564565456321, 2];
-console.log(dd);
+let [dd, ff] = [165.4564565456321, 2];
+console.log(dd.toFixed(ff));
