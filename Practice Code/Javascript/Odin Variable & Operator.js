@@ -67,10 +67,17 @@ let num3 = 10;
 // console.log(++num3);
 console.log(num3++);
 
-let what = 0;
+let what = 0;"$" + 4 + 5 = "$45"
 console.log(what);
 what += 2;
 console.log(what);
 
-let [dd, ff] = [165.4564565456321, 2];
-console.log(dd.toFixed(ff));
+let [dd, ff] = [165.4564565456321, "6"];
+console.log(dd.toFixed(+ff));
+
+let str = "strinng";
++str;
+console.log(+str);
+
+// Nullis Coalescing Operator
+console.log(str ?? "Hello");
