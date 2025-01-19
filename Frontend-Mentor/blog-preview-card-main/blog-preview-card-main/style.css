@@ -8,7 +8,7 @@ body {
   height: 100vh;
   align-content: center;
   background-color: hsl(47, 88%, 63%);
-  font-family: lexend;
+  font-family: Lexend;
 }
 
 .container {
@@ -36,7 +36,7 @@ button {
   font-weight: 800;
   font-size: 15px;
   color: rgb(48, 48, 48);
-  font-family: lexend;
+  /* font-family: lexend; */
 }
 .container p {
   font-family: lexend;
