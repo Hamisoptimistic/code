@@ -67,7 +67,8 @@ let num3 = 10;
 // console.log(++num3);
 console.log(num3++);
 
-let what = 0;"$" + 4 + 5 = "$45"
+let what = 0;
+// "$" + 4 + 5 = "$45";/
 console.log(what);
 what += 2;
 console.log(what);
@@ -79,5 +80,6 @@ let str = "strinng";
 +str;
 console.log(+str);
 
-// Nullis Coalescing Operator
-console.log(str ?? "Hello");
+// Nullish Coalescing Operator
+// console.log(str ?? "Hello");
+console.log(typeof undefined);
