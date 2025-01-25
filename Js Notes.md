@@ -25,5 +25,6 @@
 	4. `.slice (2,4)` cuts the string and returns a new string according to index.
 	5. `.toUpperCase() & .toLowerCase()` 
 	6. `.trim()` and we can chain the methods.
-	7. 
-
+	7. `.replace() & .replaceAll(what to replace and to replace with)`
+	8. Boolean methods. `.includes(), .starsWith(), .endsWith()`
+	9. `.padStart & .padEnd(20, '+')`

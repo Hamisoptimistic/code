@@ -1,7 +1,4 @@
-let str = "Hamim Basha";
-// console.log(str.slice(0, 5));
-// console.log(str.slice(str.indexOf(" ")).trim());
-
+// Source: https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript
 function correctStr(name) {
   // return str.split('').reverse().join('');
   let lowercase = name.toLowerCase();
@@ -14,6 +11,4 @@ function correctStr(name) {
   return `${capFirst + " " + capSecond}`;
 }
 
-// console.log(correctStr(str)); // [ 'Hamim', 'Basha' ]
-
-console.log(correctStr("donlad trump is a mainace")); // [ 'Donlad', 'Trump', 'Is', 'A', 'Mainace' ]
+console.log(correctStr("donlad trump")); // [ 'Donlad', 'Trump', 'Is', 'A', 'Mainace' ]
