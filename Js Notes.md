@@ -27,4 +27,5 @@
 	6. `.trim()` and we can chain the methods.
 	7. `.replace() & .replaceAll(what to replace and to replace with)`
 	8. Boolean methods. `.includes(), .starsWith(), .endsWith()`
-	9. `.padStart & .padEnd(20, '+')`
+	9. `.padStart() & .padEnd(20, '+')`
+	10.  
