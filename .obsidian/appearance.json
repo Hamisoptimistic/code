@@ -1,0 +1,8 @@
+{
+  "baseFontSize": 19,
+  "textFontFamily": "Segoe UI",
+  "interfaceFontFamily": "Inter",
+  "cssTheme": "Border",
+  "theme": "system",
+  "monospaceFontFamily": "Fira Code"
+}
