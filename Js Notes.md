@@ -28,4 +28,9 @@
 	7. `.replace() & .replaceAll(what to replace and to replace with)`
 	8. Boolean methods. `.includes(), .starsWith(), .endsWith()`
 	9. `.padStart() & .padEnd(20, '+')`
-	10.  
+
+## Logical Operators
+1. Logical `OR (||)` : a chain of OR `||` returns the first truthy value or the last one if no truthy value is found.
+2. Logical `AND(&&)` : returns the first falsy value or the last value if none were found.
+3. Short-circuiting : Remember that `&&` stops at the first **falsy** value, while `||` stops at the first **truthy** value.
+4. 
