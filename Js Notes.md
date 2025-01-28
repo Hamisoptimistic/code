@@ -33,4 +33,6 @@
 1. Logical `OR (||)` : a chain of OR `||` returns the first truthy value or the last one if no truthy value is found.
 2. Logical `AND(&&)` : returns the first falsy value or the last value if none were found.
 3. Short-circuiting : Remember that `&&` stops at the first **falsy** value, while `||` stops at the first **truthy** value.
-4. 
+## Conditional Statements.
+1. If-else : In its parenthesis, if takes , true, false or any truthy or falsy values.
+2. Ternary operator : ```condition ? run this code : run this code instead.```

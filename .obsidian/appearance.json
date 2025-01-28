@@ -1,6 +1,6 @@
 {
-  "baseFontSize": 19,
-  "textFontFamily": "Segoe UI",
+  "baseFontSize": 21,
+  "textFontFamily": "Corbel,Segoe UI",
   "interfaceFontFamily": "Inter",
   "cssTheme": "Border",
   "theme": "system",
