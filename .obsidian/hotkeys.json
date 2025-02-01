@@ -16,5 +16,13 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "editing-toolbar:underline": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
   ]
 }

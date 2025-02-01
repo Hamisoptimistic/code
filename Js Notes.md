@@ -38,6 +38,8 @@
 2. Ternary operator : ```condition ? run this code : run this code instead.```
 ## Functions
 1. Parameters : Functions may require parameter to work and some doesnt
-	1. **No parameter** : Some Functions doesnt require any parameter to work. `Math.random()`
-	2. Optional Parameters : If no parameters are provided to function, it uses some default parameter. `function arr (name) {name.join ()}` name.join will use comma by default. You can use `" "` as an optional parameter and the functions would still work.
-	3. 
+	1. <u>No parameter</u> : Some Functions doesnt require any parameter to work. `Math.random()`
+	2. <u>Optional Parameters</u> : If no parameters are provided to function, it uses some default parameter. `function arr (name) {name.join ()}` name.join will use comma by default. You can use `" "` as an optional parameter and the functions would still work.
+	3. <u>Default Parameters</u> : We can specify default value for a given parameter using the assignment operator. `(name = 'hamim')` 
+2. Anonymous function : Function without a name, and its a function expression.
+3. 
