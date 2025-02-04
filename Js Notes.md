@@ -42,4 +42,3 @@
 	2. <u>Optional Parameters</u> : If no parameters are provided to function, it uses some default parameter. `function arr (name) {name.join ()}` name.join will use comma by default. You can use `" "` as an optional parameter and the functions would still work.
 	3. <u>Default Parameters</u> : We can specify default value for a given parameter using the assignment operator. `(name = 'hamim')` 
 2. Anonymous function : Function without a name, and its a function expression.
-3. 
