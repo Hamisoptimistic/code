@@ -42,3 +42,7 @@
 	2. <u>Optional Parameters</u> : If no parameters are provided to function, it uses some default parameter. `function arr (name) {name.join ()}` name.join will use comma by default. You can use `" "` as an optional parameter and the functions would still work.
 	3. <u>Default Parameters</u> : We can specify default value for a given parameter using the assignment operator. `(name = 'hamim')` 
 2. Anonymous function : Function without a name, and its a function expression.
+3. Variables declared globally can be accessed anywhere however when declared inside a function , it is accessible only inside the function.
+4. If there is a global variable and we again declare a local variable with the same name using `let` then the local variable is accessed.
+5. Similarly we can change the value of global variable inside function without declaring and the value of the global will be changed.
+6. 

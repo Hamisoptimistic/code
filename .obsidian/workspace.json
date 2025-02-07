@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Js Notes"
             }
+          },
+          {
+            "id": "d520fbf5b9079887",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
         ]
       }
@@ -40,7 +52,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0f387bd4c230e6a9",
@@ -165,6 +177,7 @@
   },
   "active": "25d57ef74399073a",
   "lastOpenFiles": [
+    "Js Notes.md",
     "Coding_JS problems/startOz.js",
     "Coding_JS problems/Unconfirmed 915245.crdownload",
     "Coding_JS problems/mixStart.js",
@@ -175,9 +188,7 @@
     "Coding_JS problems/Unconfirmed 336765.crdownload",
     "Coding_JS problems/in1020.js",
     "Coding_JS problems/Unconfirmed 383183.crdownload",
-    "Coding_JS problems/icyHot.js",
     "Resources/ODIN NOTES.md",
-    "Untitled.canvas",
-    "Js Notes.md"
+    "Untitled.canvas"
   ]
 }
