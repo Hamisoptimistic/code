@@ -45,4 +45,5 @@
 3. Variables declared globally can be accessed anywhere however when declared inside a function , it is accessible only inside the function.
 4. If there is a global variable and we again declare a local variable with the same name using `let` then the local variable is accessed.
 5. Similarly we can change the value of global variable inside function without declaring and the value of the global will be changed.
-6. 
+6. Return values can termiate and return the value where function is called.
+7. 
