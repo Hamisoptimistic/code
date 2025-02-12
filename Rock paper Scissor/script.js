@@ -5,16 +5,16 @@
 let computerScore = 0;
 let HumanScore = 0;
 
-let getComputermove = () => {
-  let number = Math.random();
-  let randomNum = number.toFixed(1);
+const getComputermove = () => {
+  let randomNum = Math.random();
+
   // console.log(randomNum);
 
   // Computer Logic
   let computerMove = "";
-  if (randomNum <= 0.3) {
+  if (randomNum <= 0.33) {
     computerMove = "rock";
-  } else if (randomNum > 0.3 && randomNum <= 0.7) {
+  } else if (randomNum > 0.33 && randomNum <= 0.66) {
     computerMove = "paper";
   } else {
     computerMove = "scissor";
@@ -23,14 +23,14 @@ let getComputermove = () => {
   return computerMove;
 };
 
-let getHumanMove = () => {
-  let input = prompt("What's Your Choice??");
+const getHumanMove = () => {
+  let input = prompt("What's Your Choice? (rock, paper, scissor)");
   let humanChoice = input.toLowerCase().trim();
   // console.log(humanChoice);
   return humanChoice;
 };
 
-let playRound = (computerChoice, playerChoice) => {
+const playRound = (computerChoice, playerChoice) => {
   if (computerChoice === playerChoice) {
     console.log("TIE");
   } else if (computerChoice === "rock") {
