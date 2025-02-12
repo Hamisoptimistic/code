@@ -1,6 +1,4 @@
 // Rock Paper scissor
-// Generate random move for computer
-//
 
 let computerScore = 0;
 let HumanScore = 0;
@@ -24,7 +22,10 @@ const getComputermove = () => {
 };
 
 const getHumanMove = () => {
-  let input = prompt("What's Your Choice? (rock, paper, scissor)");
+  let input = prompt("What's Your Choice? (rock, paper, scissor)").toLowerCase().trim();
+  while (input !== "rock" && input !== "paper" && input !== "scissor") {
+    input = prompt("Invalid Choice , Choose from these(rock, paper, scissor)");
+  }
   let humanChoice = input.toLowerCase().trim();
   // console.log(humanChoice);
   return humanChoice;
