@@ -19,10 +19,9 @@ let getComputermove = () => {
   } else {
     computerMove = "scissor";
   }
-  console.log(computerMove);
+  // console.log(computerMove);
   return computerMove;
 };
-let computerChoice = getComputermove();
 
 let getHumanMove = () => {
   let input = prompt("What's Your Choice??");
@@ -30,7 +29,6 @@ let getHumanMove = () => {
   // console.log(humanChoice);
   return humanChoice;
 };
-let playerChoice = getHumanMove();
 
 let playRound = (computerChoice, playerChoice) => {
   if (computerChoice === playerChoice) {
@@ -38,21 +36,41 @@ let playRound = (computerChoice, playerChoice) => {
   } else if (computerChoice === "rock") {
     if (playerChoice === "paper") {
       HumanScore += 1;
+      console.log("You Won");
     } else if (playerChoice === "scissor") {
+      console.log("You Lost");
       computerScore += 1;
     }
   } else if (computerChoice === "paper") {
     if (playerChoice === "rock") {
       computerScore += 1;
+      console.log("You Lost");
     } else if (playerChoice === "scissor") {
       HumanScore += 1;
+      console.log("You Won");
     }
   } else if (computerChoice === "scissor") {
     if (playerChoice === "rock") {
       HumanScore += 1;
+      console.log("You Won");
     } else if (playerChoice === "paper") {
       computerScore += 1;
+      console.log("You Lost");
     }
   }
 };
-playRound(computerChoice, playerChoice);
+
+for (let i = 0; i < 5; i++) {
+  let computerChoice = getComputermove();
+  let playerChoice = getHumanMove();
+  playRound(computerChoice, playerChoice);
+  console.log(`Your Score : ${HumanScore}, Computer Score : ${computerScore}`);
+}
+
+if (HumanScore > computerScore) {
+  console.log("Congratulations! You won the game!");
+} else if (HumanScore < computerScore) {
+  console.log("The computer won the game!");
+} else {
+  console.log("The game ended in a tie!");
+}
