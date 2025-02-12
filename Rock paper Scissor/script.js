@@ -55,5 +55,4 @@ let playRound = (computerChoice, playerChoice) => {
     }
   }
 };
-
 playRound(computerChoice, playerChoice);
