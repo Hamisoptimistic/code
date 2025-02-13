@@ -24,7 +24,7 @@ const getComputermove = () => {
 const getHumanMove = () => {
   let input = prompt("What's Your Choice? (rock, paper, scissor)").toLowerCase().trim();
   while (input !== "rock" && input !== "paper" && input !== "scissor") {
-    input = prompt("Invalid Choice , Choose from these(rock, paper, scissor)");
+    input = prompt("Invalid Choice , Choose from these(rock, paper, scissor)").toLowerCase().trim();
   }
   let humanChoice = input.toLowerCase().trim();
   // console.log(humanChoice);
@@ -75,3 +75,5 @@ if (HumanScore > computerScore) {
 } else {
   console.log("The game ended in a tie!");
 }
+
+for (let i = 0; i < 1; i++) {}

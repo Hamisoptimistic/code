@@ -10,15 +10,15 @@
 7. NaN and Infinity are Js reserved keywords, and they are actually Numbers. (`typeof NaN` is Number).
 8. Numbers can be created using `new Number(123)` which is not recommended.
 9. [Operator Precedence](https://javascript.info/operators#operator-precedence)
-10. Operators : Assignment,Arithmetic,Comparison,Logical,Comma
+10. <u>Operators</u> : Assignment,Arithmetic,Comparison,Logical,Comma
 11. [chatGPT operator](https://chatgpt.com/c/678e15ab-6538-8006-a53a-a782d259c019)
 ### Data Types
 1. Js has 2 data-types, `Primitive & Object`
-2. Primitive Data type : Number, String, Boolean, Undefined, null, Bigint, Symbol.
-3. Object Data type : object, function, array, class, Set, Map.
+2. <u>Primitive Data type</u> : Number, String, Boolean, Undefined, null, Bigint, Symbol.
+3. <u>Object Data type</u> : object, function, array, class, Set, Map.
 ### Strings
-1.  Strings can be primitive and object based in Js.
-2.  String Methods.
+4.  Strings can be primitive and object based in Js.
+5.  **String Methods.**
 	1. Using `[]` to return a word at that index of the string
 	2. `.length`
 	3. `.indexOf() & .lastIndexOf()`
@@ -30,20 +30,25 @@
 	9. `.padStart() & .padEnd(20, '+')`
 
 ## Logical Operators
-1. Logical `OR (||)` : a chain of OR `||` returns the first truthy value or the last one if no truthy value is found.
-2. Logical `AND(&&)` : returns the first falsy value or the last value if none were found.
-3. Short-circuiting : Remember that `&&` stops at the first **falsy** value, while `||` stops at the first **truthy** value.
+6. Logical `OR (||)` : a chain of OR `||` returns the first truthy value or the last one if no truthy value is found.
+7. Logical `AND(&&)` : returns the first falsy value or the last value if none were found.
+8. Short-circuiting : Remember that `&&` stops at the first **falsy** value, while `||` stops at the first **truthy** value.
 ## Conditional Statements.
-1. If-else : In its parenthesis, it takes  true or any truthy values.
-2. Ternary operator : ```condition ? run this code : run this code instead.```
+9. If-else : In its parenthesis, it takes  true or any truthy values.
+10. Ternary operator : ```condition ? run this code : run this code instead.```
 ## Functions
-1. Parameters : Functions may require parameter to work and some doesnt
+11. Parameters : Functions may require parameter to work and some doesnt
 	1. <u>No parameter</u> : Some Functions doesnt require any parameter to work. `Math.random()`
 	2. <u>Optional Parameters</u> : If no parameters are provided to function, it uses some default parameter. `function arr (name) {name.join ()}` name.join will use comma by default. You can use `" "` as an optional parameter and the functions would still work.
 	3. <u>Default Parameters</u> : We can specify default value for a given parameter using the assignment operator. `(name = 'hamim')` 
-2. <u>Anonymous function</u> : Function without a name, and its a function expression.
-3. Variables declared globally can be accessed anywhere however when declared inside a function , it is accessible only inside the function.
-4. If there is a global variable and we again declare a local variable with the same name using `let` then the local variable is accessed.
-5. Similarly we can change the value of global variable inside function without declaring and the value of the global will be changed.
-6. Return keyword can terminate and return the value where function is called.
-7. <u>Arrow function</u> : It is similar to function expression but it doesnt have any function keyword.
+12. <u>Anonymous function</u> : Function without a name, and its a function expression.
+13. Variables declared globally can be accessed anywhere however when declared inside a function , it is accessible only inside the function.
+14. If there is a global variable and we again declare a local variable with the same name using `let` then the local variable is accessed.
+15. Similarly we can change the value of global variable inside function without declaring and the value of the global will be changed.
+16. Return keyword can terminate and return the value where function is called.
+17. <u>Arrow function</u> : It is similar to function expression but it doesnt have any function keyword.
+## Arrays
+18. An Array is an ordered collection of items (Strings, numbers, or other things).
+19. Array can be created using array literal `const arr = []` or using `new Array()` constructor.
+20. *Array is Basically an Object* suitable to store values in order.
+21. **Array Methods**
