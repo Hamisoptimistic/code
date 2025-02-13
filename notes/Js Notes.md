@@ -17,8 +17,8 @@
 2. <u>Primitive Data type</u> : Number, String, Boolean, Undefined, null, Bigint, Symbol.
 3. <u>Object Data type</u> : object, function, array, class, Set, Map.
 ### Strings
-4.  Strings can be primitive and object based in Js.
-5.  **String Methods.**
+1.  Strings can be primitive and object based in Js.
+2.  **String Methods.**
 	1. Using `[]` to return a word at that index of the string
 	2. `.length`
 	3. `.indexOf() & .lastIndexOf()`
@@ -30,25 +30,26 @@
 	9. `.padStart() & .padEnd(20, '+')`
 
 ## Logical Operators
-6. Logical `OR (||)` : a chain of OR `||` returns the first truthy value or the last one if no truthy value is found.
-7. Logical `AND(&&)` : returns the first falsy value or the last value if none were found.
-8. Short-circuiting : Remember that `&&` stops at the first **falsy** value, while `||` stops at the first **truthy** value.
+1. Logical `OR (||)` : a chain of OR `||` returns the first truthy value or the last one if no truthy value is found.
+2. Logical `AND(&&)` : returns the first falsy value or the last value if none were found.
+3. Short-circuiting : Remember that `&&` stops at the first **falsy** value, while `||` stops at the first **truthy** value.
 ## Conditional Statements.
-9. If-else : In its parenthesis, it takes  true or any truthy values.
-10. Ternary operator : ```condition ? run this code : run this code instead.```
+1. If-else : In its parenthesis, it takes  true or any truthy values.
+2. Ternary operator : ```condition ? run this code : run this code instead.```
 ## Functions
-11. Parameters : Functions may require parameter to work and some doesnt
+1. Parameters : Functions may require parameter to work and some doesnt
 	1. <u>No parameter</u> : Some Functions doesnt require any parameter to work. `Math.random()`
 	2. <u>Optional Parameters</u> : If no parameters are provided to function, it uses some default parameter. `function arr (name) {name.join ()}` name.join will use comma by default. You can use `" "` as an optional parameter and the functions would still work.
 	3. <u>Default Parameters</u> : We can specify default value for a given parameter using the assignment operator. `(name = 'hamim')` 
-12. <u>Anonymous function</u> : Function without a name, and its a function expression.
-13. Variables declared globally can be accessed anywhere however when declared inside a function , it is accessible only inside the function.
-14. If there is a global variable and we again declare a local variable with the same name using `let` then the local variable is accessed.
-15. Similarly we can change the value of global variable inside function without declaring and the value of the global will be changed.
-16. Return keyword can terminate and return the value where function is called.
-17. <u>Arrow function</u> : It is similar to function expression but it doesnt have any function keyword.
+2. <u>Anonymous function</u> : Function without a name, and its a function expression.
+3. Variables declared globally can be accessed anywhere however when declared inside a function , it is accessible only inside the function.
+4. If there is a global variable and we again declare a local variable with the same name using `let` then the local variable is accessed.
+5. Similarly we can change the value of global variable inside function without declaring and the value of the global will be changed.
+6. Return keyword can terminate and return the value where function is called.
+7. <u>Arrow function</u> : It is similar to function expression but it doesnt have any function keyword.
 ## Arrays
-18. An Array is an ordered collection of items (Strings, numbers, or other things).
-19. Array can be created using array literal `const arr = []` or using `new Array()` constructor.
-20. *Array is Basically an Object* suitable to store values in order.
-21. **Array Methods**
+1. An Array is an ordered collection of items (Strings, numbers, or other things).
+2. Array can be created using array literal `const arr = []` or using `new Array()` constructor.
+3. *Array is Basically an Object* suitable to store values in order.
+4. **Array Methods** : 
+	1. array.length
