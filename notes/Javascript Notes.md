@@ -55,7 +55,8 @@
 2. Array can be created using array literal `const arr = []` or using `new Array()` constructor.
 3. *Array is Basically an Object* suitable to store values in order.
 4. **Basic Array Methods** : 
-	1. .length : it is an property not a method, however it returns length of an array.
-	2. .toString() : Converts array to string and returns strings.
-	3. .at(...) : Returns the index value. 
-	
+	1. `.length` : it is an property not a method, however it returns length of an array.
+	2. `.toString()` : Converts array to string and returns strings.
+	3. `.at(...)` : Returns the index value. 
+	4. `.join (...)`  : Works the same as .toString (), but here you can specify a separator like space or ,
+	5. 

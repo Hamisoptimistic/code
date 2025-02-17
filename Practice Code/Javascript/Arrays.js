@@ -7,4 +7,6 @@ console.log(numbers.length);
 // toString
 console.log(strings.toString());
 // .at()
-console.log(numbers.at(-2));
+console.log(strings.at(-2));
+// .join()
+console.log(numbers.join(" "));
