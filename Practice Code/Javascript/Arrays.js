@@ -10,3 +10,9 @@ console.log(strings.toString());
 console.log(strings.at(-2));
 // .join()
 console.log(numbers.join(" "));
+
+// .pop()
+
+let lastEl = numbers.pop();
+console.log(lastEl);
+console.log(numbers);
