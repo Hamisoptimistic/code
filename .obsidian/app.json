@@ -3,5 +3,5 @@
   "spellcheck": false,
   "strictLineBreaks": false,
   "showLineNumber": false,
-  "smartIndentList": false
+  "smartIndentList": true
 }
