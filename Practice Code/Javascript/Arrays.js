@@ -13,6 +13,11 @@ console.log(numbers.join(" "));
 
 // .pop()
 
-let lastEl = numbers.pop();
-console.log(lastEl);
-console.log(numbers);
+// let lastEl = numbers.pop();
+// console.log(lastEl);
+// console.log(numbers);
+
+// push
+
+let newNum = numbers.push("WTF");
+console.log(newNum);
