@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c9714cf402a50fa3",
+        "id": "f9b9ce697328c2fe",
         "type": "tabs",
         "children": [
           {
-            "id": "d520fbf5b9079887",
+            "id": "dcfeb0326d293dd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,19 +163,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d520fbf5b9079887",
+  "active": "dcfeb0326d293dd3",
   "lastOpenFiles": [
+    "Coding_JS problems/Array-1/sameFirstLast.js",
+    "Coding_JS problems/Array-1/Unconfirmed 667502.crdownload",
+    "Coding_JS problems/warmup-1/max1020.js",
+    "Coding_JS problems/warmup-1/max1020 (1).js",
+    "Coding_JS problems/warmup-1/makes10.js",
+    "Coding_JS problems/warmup-1/intMax.js",
+    "Coding_JS problems/warmup-1/in3050.js",
+    "Coding_JS problems/warmup-1/in1020.js",
+    "Coding_JS problems/warmup-1/sumDouble.js",
+    "Coding_JS problems/warmup-1/missingChar.js",
+    "Coding_JS problems/warmup-1/front22.js",
+    "2025-02-18.md",
     "notes/Javascript Notes.md",
-    "Practice Code/Javascript/Arrays.js",
-    "Rock paper Scissor/script.js",
-    "Rock paper Scissor/index.html",
-    "Rock paper Scissor",
-    "Coding_JS problems/stringE.js",
-    "Coding_JS problems/Unconfirmed 754135.crdownload",
-    "Coding_JS problems/max1020 (1).js",
-    "Coding_JS problems/Unconfirmed 539012.crdownload",
-    "Coding_JS problems/max1020.js",
-    "Coding_JS problems/Unconfirmed 192476.crdownload",
+    "![[Pasted image 20250217082610.png.md",
+    "Pasted image 20250217082614.png",
+    "Pasted image 20250217082610.png",
     "Js Notes.md",
     "Resources/ODIN NOTES.md",
     "Untitled.canvas"

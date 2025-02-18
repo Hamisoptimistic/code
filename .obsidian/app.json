@@ -3,5 +3,6 @@
   "spellcheck": false,
   "strictLineBreaks": false,
   "showLineNumber": false,
-  "smartIndentList": true
+  "smartIndentList": true,
+  "promptDelete": false
 }

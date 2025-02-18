@@ -59,7 +59,7 @@
 	2. `.toString()` : Converts array to string and returns strings.
 	3. `.at(...)` : Returns the index value. 
 	4. `.join (...)`  : Works the same as .toString (), but here you can specify a separator like space or ,
-	5. `.push()` : Adds element at the end of array and <u>returns the length of new array</u> after adding it.
+	5. `.push()` : Adds element at the end of array and <u>returns the length of new array</u> after adding it. [Array Methods Diagram](https://postimg.cc/G8gg2C0X)
 	6. `.pop()` : Removes element from the end of an array and <u>returns the removed value</u>.
 	7. `shift()` : Removes the first element of the array and returns it.
 	8. `unshift()` : Adds the element to the beginning of the array and <u>returns the length of new array</u> after adding it.
