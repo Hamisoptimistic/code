@@ -66,4 +66,4 @@
 	9. `Concat(...)` : Takes any number of argument and joins the array. It returns new array.
 	10. `Splice(...)`: Adds new elements to an array. returns the deleted items and can be used to remove items as well.
 	11. `toSpliced()` : Does the same thing but creates a new array.
-	12. 
+	12. `slice(...)` : removes the element and returns a new array.
