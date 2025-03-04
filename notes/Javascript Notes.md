@@ -63,3 +63,7 @@
 	6. `.pop()` : Removes element from the end of an array and <u>returns the removed value</u>.
 	7. `shift()` : Removes the first element of the array and returns it.
 	8. `unshift()` : Adds the element to the beginning of the array and <u>returns the length of new array</u> after adding it.
+	9. `Concat(...)` : Takes any number of argument and joins the array. It returns new array.
+	10. `Splice(...)`: Adds new elements to an array. returns the deleted items and can be used to remove items as well.
+	11. `toSpliced()` : Does the same thing but creates a new array.
+	12. 
