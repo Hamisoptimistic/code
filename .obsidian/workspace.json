@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Javascript Notes"
             }
+          },
+          {
+            "id": "64fb747078c9f823",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ]
       }
@@ -165,6 +177,9 @@
   },
   "active": "dcfeb0326d293dd3",
   "lastOpenFiles": [
+    "notes/Javascript Notes.md",
+    "Practice Code/Javascript/Loops Practice/isPrime.js",
+    "Practice Code/Javascript/Loops Practice",
     "Practice Code/Javascript/Js.info tasks.js",
     "Coding_JS problems/Array-1/commonEnd.js",
     "Coding_JS problems/Array-1/Unconfirmed 303009.crdownload",
@@ -173,11 +188,7 @@
     "Coding_JS problems/Array-1/sameFirstLast.js",
     "Coding_JS problems/Array-1/Unconfirmed 667502.crdownload",
     "Coding_JS problems/warmup-1/max1020.js",
-    "Coding_JS problems/warmup-1/max1020 (1).js",
-    "Coding_JS problems/warmup-1/makes10.js",
-    "Coding_JS problems/warmup-1/intMax.js",
     "2025-02-18.md",
-    "notes/Javascript Notes.md",
     "![[Pasted image 20250217082610.png.md",
     "Pasted image 20250217082614.png",
     "Pasted image 20250217082610.png",
